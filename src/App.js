@@ -14,6 +14,10 @@ function App() {
     setResult('')
   };
 
+  const onBack = () => {
+        setResult(result.slice(0, result.length - 1)); 
+    };
+
 
   return (
     <Calculator />
