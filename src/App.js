@@ -6,10 +6,13 @@ import Calculator from './components/calculator/Calculator';
 function App() {
   const [result, setResult] = useState('');
 
-  const onClick = (e) => {       
+  const onClick = (e) => {
     setResult(result.concat(e.target.name))
-          
-  }
+  };
+
+  const onClear = () => {
+    setResult('')
+  };
 
 
   return (
