@@ -16,7 +16,15 @@ function App() {
 
   const onBack = () => {
         setResult(result.slice(0, result.length - 1)); 
-    };
+  };
+
+  const onCalculate = () => {
+    try {
+        setResult(Number(eval(result).toString()).toFixed(15));
+    } catch () {
+        setResult()
+    }      
+};
 
 
   return (
