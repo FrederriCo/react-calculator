@@ -21,8 +21,8 @@ function App() {
   const onCalculate = () => {
     try {
         setResult(Number(eval(result).toString()).toFixed(15));
-    } catch () {
-        setResult()
+    } catch (error) {
+        setResult('Error')
     }      
 };
 
