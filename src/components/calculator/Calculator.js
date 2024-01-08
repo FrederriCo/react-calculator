@@ -30,6 +30,10 @@ const Calculator = () => {
                 <form action="">
                     <input type="text" value={result} />
                 </form>
+                <div className="input__data">
+                    <button onClick={onClear} className='clear'>Clear</button>
+                </div>
+
             </div>
         </>
     )

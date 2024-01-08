@@ -1,6 +1,6 @@
 import Calculator from './components/calculator/Calculator';
 
-function App() {  
+function App() {
   return (
     <Calculator />
   );
