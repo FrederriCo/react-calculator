@@ -32,6 +32,7 @@ const Calculator = () => {
                 </form>
                 <div className="input__data">
                     <button onClick={onClear} className='clear'>Clear</button>
+                    <button onClick={onBack} className='back'>C</button>
                 </div>
 
             </div>
