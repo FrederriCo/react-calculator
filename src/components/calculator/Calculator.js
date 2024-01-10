@@ -34,6 +34,8 @@ const Calculator = () => {
                     <button onClick={onClear} className='clear'>Clear</button>
                     <button onClick={onBack} className='back'>C</button>
                     <button name='/' onClick={onClick}>&divide;</button>
+                    <button name='7' onClick={onClick}>7</button>
+                    <button name='8' onClick={onClick}>8</button>
                 </div>
                 
             </div>
