@@ -38,8 +38,9 @@ const Calculator = () => {
                     <button name='8' onClick={onClick}>8</button>
                     <button name='9' onClick={onClick}>9</button>
                     <button name='*' onClick={onClick}>&times;</button>
+                    <button name='4' onClick={onClick}>4</button>
                 </div>
-                
+
             </div>
         </>
     )
