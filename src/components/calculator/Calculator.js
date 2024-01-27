@@ -47,6 +47,7 @@ const Calculator = () => {
 					<button name='3' onClick={onClick}>3</button>
 					<button name='+' onClick={onClick}>+</button>
 					<button name='0' onClick={onClick}>0</button>
+					<button name='.' onClick={onClick}>.</button>
                 </div>
 
             </div>
