@@ -34,3 +34,10 @@ button:hover {
     background: #a5aaab;
     color: #56cbdb;       
 }
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
