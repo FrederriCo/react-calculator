@@ -41,3 +41,11 @@ button:focus,
 button:active {
     outline: none;
 }
+
+input[type='text'] {
+    height: 75px;
+    width: 250px;
+    background-color: #101116;
+    border: 0px;
+    
+}
