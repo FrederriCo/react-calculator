@@ -65,5 +65,5 @@ input[type='text'] {
     grid-column: 3/5;
     grid-row: 5;
     color: #fff;
-     
+    background: #56cbdb;   
 }
