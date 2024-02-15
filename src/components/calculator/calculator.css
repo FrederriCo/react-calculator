@@ -60,3 +60,10 @@ input[type='text'] {
     color: #fff;
     background: #56cbdb;    
 }
+
+.result {
+    grid-column: 3/5;
+    grid-row: 5;
+    color: #fff;
+     
+}
